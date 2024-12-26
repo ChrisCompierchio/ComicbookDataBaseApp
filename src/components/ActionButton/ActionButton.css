@@ -1,0 +1,37 @@
+.action-container{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: solid 2px black;
+  font-size: 1.6rem;
+  z-index: 999;
+  background-color: var(--accent);
+  box-shadow: 2px 4px 8px 0px #111;
+}
+
+/* SEARCH MENU */
+
+.menu-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 96%;
+  height: 45vh;
+  background-color: white;
+  position: absolute;
+  z-index: 7;
+  top: -48vh;
+  left: 2%;
+  transition: top 0.3s ease;
+  border: black 2px solid;
+  border-radius: 0 0 20px 20px;
+}
+.slide-up{
+  top: -2px;
+}

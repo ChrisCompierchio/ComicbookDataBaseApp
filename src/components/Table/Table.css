@@ -1,0 +1,38 @@
+table{
+  width: 96%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+.dropdown-row {
+  cursor: pointer;
+  width: 100%;
+  table-layout: fixed;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: left;
+}
+td{
+  width: 100%;
+}
+thead th {
+  background-color: rgba(213, 209, 222, 0.996);
+}
+.dropdown-row.odd {
+  background-color: rgba(0, 0, 0, 0.043);
+}
+.dropdown-row.even {
+  background-color: transparent;
+}
+.dropdownInfo{
+  width: 96%;
+}
+.virtuoso-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+

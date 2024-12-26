@@ -1,0 +1,66 @@
+div {
+  -webkit-tap-highlight-color: transparent;
+}
+.table-container{
+  width: 96%;
+  position: absolute;
+  top: 110px;
+  left: 2%;
+  margin: auto;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(213, 209, 222, 0.996);
+}
+.dropdown-row, .table-header{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  align-items: center;
+}
+.table-header{
+  background-color: rgba(213, 209, 222, 0.996);
+  font-weight: bold;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  font-size: 1.1rem;
+}
+.even{
+  background-color: lightgray;
+}
+.table-cell{
+  height: 100%;
+  display: flex;
+}
+.table-cell.title{
+  width: 65%;
+  padding-right: 15px;
+}
+.table-cell.issue {
+  width: 15%;
+  justify-content: center;
+}
+.table-cell.year {
+  width: 20%;
+  justify-content: center;
+}
+.dropdownInfo{
+  width: 100%;
+  margin: auto;
+  padding: 15px 15px;
+}
+.dropdown-subhead{
+  font-weight: bold;
+}
+.expanded{
+  border-bottom: black solid 2px;
+  border-top: none;
+}
+.active{
+  background-color: var(--accent);
+  border-top: black solid 2px;
+  border-bottom: none;
+  font-weight: bold;
+}
