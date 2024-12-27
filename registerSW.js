@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ComicbookDatabaseApp/sw.js', { scope: '/ComicbookDatabaseApp/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ComicbookDataBaseApp/sw.js', { scope: '/ComicbookDataBaseApp/' })})}
